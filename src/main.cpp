@@ -58,7 +58,7 @@ void processMask(void* pred_mask_gpu, cv::Mat& mask_display, int width, int heig
     cv::morphologyEx(mask_display, mask_display, cv::MORPH_OPEN, element);
 }
 int main() {
-    const std::string model_dir = "/home/g14/Documents/trt-efficientTAM_OK/models/etam_fp16";
+    const std::string model_dir = "~/trt-efficientTAM/models/etam_fp16";
     
     // 创建一个日志记录器实例
     Logger logger;

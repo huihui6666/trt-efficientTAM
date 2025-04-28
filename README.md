@@ -1,6 +1,18 @@
-使用 onnxruntime 推理 efficientTAM
+使用TensorRT 推理 efficientTAM
 
 支持单目标跟踪
+
+###### 使用
+
+```bash
+#export your TensorRT path
+export TensorRT_HOME=your_tensorRT_path
+mkdir build && cd build
+cmake .. && make
+./trt-efficientTAM
+```
+
+
 
 ## 参考
 
